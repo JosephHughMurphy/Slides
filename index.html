@@ -1,36 +1,106 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+<!-- taken from - https://www.youtube.com/watch?v=uE1m21Umn0s&ab_channel=TraversyMedia finish laters -->
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<title>Joe Murphy - Presentation slide decks</title>
-
-	<link rel="stylesheet" href="index.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/webslides.css">
+    <title> Joe's first pres</title>
 </head>
 <body>
-	<!-- Each container is a link to the presentations -->
-	<div class="flex-container">
-		<div class="row">
-			<div class="title">
-				<a href="./2022_08_08_test.html">2022.08.08 Test</a>
-			</div>
-			<div class="names">
-				<span>Joseph Hugh Murphy</span>
-				<span>Charles Dickerson</span>
-			</div>
-		</div>
-		<div class="row">
-			<div class="title">
-				<a href="./2022_09_09_test_2.html">2022.08.08 test 2</a>
-			</div>
-			<div class="names">
-				<span>Joe Murphy</span>
-			</div>
-		</div>
-	</div>
+    <main role="main">
+        <article id="webslides" class="horizontal">
+                   
+            <!-- slide 1 -->
+
+
+            <Section>
+                <span class="background" style="background-image:url('images/davinci.png')"></span>
+                
+                 <!-- div class="wrap"> used to add content -->
+                <div class="wrap">
+                    <h1><strong>Joe's First Presentation</strong></h1>
+                    <p class="text-intro">
+                        The first fore into using webslides and html editors for presentations.
+                        To view my website:                         
+                    </p>
+                    <p>
+                        <a href="#" class="button zoomIn">
+                            Find me here
+                        </a>
+
+                    </p>
+                </div>
+
+            </Section>
+           
+            <section>
+            <!-- slide 2 -->
+                <div class="wrap size-50 alighncenter">
+                    <!-- h1 - header 1, h2, header 2 -->
+                    <h2><strong> Preselecting the digitisation effort</strong></h2>
+                    <!-- <p> paragraph element -->
+                    <p class="text-intro"> Using graphs to find complexity</p>
+                    <div class="bh-white shadow"></div>
+                        <el class="flexblock reasons">
+                            <!-- li - list item -->
+                            <li>
+                                <h2> identification of complexity</h2>
+                                <p> Structural, information flow </p>
+                            </li>
+                            <li>
+                                <h2> Framework for chosen data sources </h2>
+                                <p> mapping and model selection </p>
+                            </li>
+                            <li>
+                                <h2> Application and analysis of chosen techniques </h2>
+                                <p> Time saved</p>
+                            </li>
+                            
+                        </el>
+
+                </div>
+            </section>
+            <section>
+                <!-- slide 3 -->
+                <!-- grid style sections -->
+                <div class="wrap">
+                    <div class="grid vertical-align">
+                        <div class="column">
+                            <h3><strong> Issues in construction</strong></h3>
+                            <p>
+                                inefficient
+                            </p>
+                        </div>
+                        <div class="column">
+                            <img src="images/Issues.png" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section>
+                
+            </section>
+
+            <section>
+            <!-- end and thanks slide, snappy - pleasure to be here and talk after https://www.youtube.com/watch?v=Unzc731iCUY&ab_channel=MITOpenCourseWare -->
+            <h1><strong>Surgical infrastructure systems!</strong></h1>
+                    <p class="text-intro">
+                        It's been a pleasure to be here.
+            </section>
+
+        </article>
+    </main>
+    <script src = "js/webslides.js"></script>
+    <script>
+        window.ws = new WebSlides();
+    </script>
 
 </body>
 </html>
